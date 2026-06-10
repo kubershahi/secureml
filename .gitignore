@@ -28,8 +28,6 @@ share/python-wheels/
 MANIFEST
 
 # PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
 
@@ -85,10 +83,6 @@ ipython_config.py
 .python-version
 
 # pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
 #Pipfile.lock
 
 # celery beat schedule file
@@ -124,11 +118,34 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-#folder
-dogvscat_traindata
-
-# pickle
-*.pickle
-
-#DS_Store
+# macOS
 .DS_Store
+
+# Model artifacts
+*.pickle
+*.h5
+*.keras
+
+# ---------------------------------------------------------------------------
+# Datasets and large artifacts (see README.md for download instructions)
+# ---------------------------------------------------------------------------
+
+# UCI Adult
+data/adult/adult.data
+data/adult/adult.test
+
+# Credit risk
+data/credit_risk/*.csv
+data/credit_risk/*.zip
+
+# Omniglot (images + trained weights)
+data/omniglot/
+
+# Dogs vs. Cats (training images, test images, saved models)
+data/dogvscat/
+data/dogvscat_traindata/
+
+# Stroke prediction
+data/stroke/
+
+# MNIST is fetched automatically via tf.keras.datasets.mnist
