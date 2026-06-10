@@ -1,14 +1,19 @@
 # SecureML
 
-Research implementations exploring **machine learning security**, with a focus on the **subpopulation data poisoning attacks**, **one-shot learning**, and **trash-bucket problem**.
+[![Final Presentation (PDF)](https://img.shields.io/badge/Final_Presentation-PDF-red)](docs/final-presentation.pdf)
+[![Paper Summary (PDF)](https://img.shields.io/badge/Paper_Summary-PDF-orange)](docs/subpopulation-attack-summary.pdf)
+[![ISM 2021](https://img.shields.io/badge/ISM-2021-lightgrey)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-This project was developed as an Independent Study Module (ISM) at Ashoka University. It studies how standard ML pipelines can be exploited when an adversary controls a small, targeted subset of training data.
+An Independent Study Module at **Ashoka University**, completed by **Abhinav Nakarmi** and **Kuber Shahi** under the supervision of **Prof. Debayan Gupta**.  
+
+This repository hosts the final report, proof-of-concept notebooks, and documentation from that work on machine learning security—including subpopulation data poisoning attacks, one-shot learning, and the trash-bucket problem—and examines how standard ML pipelines can be exploited when an adversary controls a small, targeted subset of training data.
 
 ## ISM Deliverables
 
 | Deliverable | Description |
 |-------------|-------------|
-| [Final presentation (PDF)](docs/final-presentation.pdf) | End-to-end survey of subpopulation data poisoning, one-shot learning, and trash-bucket behavior |
+| [Final Presentation (PDF)](docs/final-presentation.pdf) | End-to-end survey of subpopulation data poisoning, one-shot learning, and trash-bucket behavior |
 | [Subpopulation attack summary (PDF)](docs/subpopulation-attack-summary.pdf) | Literature review and notes on Koh et al. (2020) |
 
 ## Overview
